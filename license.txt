@@ -1,0 +1,55 @@
+Business Source License 1.1
+
+Licensor: Amine Daimallah
+Licensed Work: Treggo Beta
+Change Date: 2028-08-06
+
+1. Definitions.
+
+1.1. "Licensed Work" means the work distributed under this License, including
+all files, documentation, and related material.
+
+1.2. "Change Date" means the date specified above, after which the license
+will convert to a more permissive license.
+
+2. License Grant.
+
+2.1. Subject to the terms and conditions of this License, Licensor hereby grants
+You a non-exclusive, worldwide, royalty-free license to use, reproduce,
+prepare derivative works of, publicly display, publicly perform, sublicense,
+and distribute the Licensed Work.
+
+2.2. You may use, modify, and distribute the Licensed Work for personal,
+non-commercial, or internal business purposes.
+
+3. Usage Limitations.
+
+3.1. You may not provide, directly or indirectly, the Licensed Work or any
+derivative work as a commercial Software-as-a-Service (SaaS), hosting,
+rental, or similar service without prior written consent from the Licensor.
+
+3.2. Commercial use outside the scope of Section 2.2 requires a separate
+commercial license.
+
+4. Change Date and License Conversion.
+
+4.1. On the Change Date specified above, the license terms will convert to
+the Apache License, Version 2.0, and the restrictions on SaaS usage will
+cease to apply.
+
+5. Disclaimer of Warranty.
+
+THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+6. Limitation of Liability.
+
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE LICENSED WORK OR THE USE OR OTHER DEALINGS
+IN THE LICENSED WORK.
+
+---
+
+END OF TERMS AND CONDITIONS
