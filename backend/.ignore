@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+**/node_modules/**
+
+# Build outputs
+dist/
+build/
+**/dist/**
+**/build/**
+**/.next/**
+
+# Coverage and testing
+coverage/
+**/coverage/**
+.nyc_output/
+
+# Environment files
+.env*
+**/.env*
+
+# Logs
+logs/
+**/logs/**
+*.log
+
+# Static assets
+public/
+**/public/**
+
+# Minified files
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+
+# Frontend folder (if in monorepo)
+../frontend/**
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+**/tmp/**
+**/temp/**

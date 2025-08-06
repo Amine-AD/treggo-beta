@@ -1,0 +1,12 @@
+{
+  // "extends": ["../biome.jsonc"]
+  "root": false,
+  "extends": "//",
+  "formatter": {
+    "indentStyle": "tab",
+    "lineWidth": 80
+  },
+  "linter": {
+    "enabled": true
+  }
+}

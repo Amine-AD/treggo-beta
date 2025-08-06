@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "drizzle-kit seed",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.17.1",
+    "@hono/zod-openapi": "^1.0.2",
+    "@libsql/client": "^0.15.10",
+    "@scalar/hono-api-reference": "^0.9.12",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "dotenv-expand": "^12.0.2",
+    "drizzle-orm": "^0.44.3",
+    "drizzle-zod": "^0.8.2",
+    "hono": "^4.8.5",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-seed": "^0.3.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3",
+    "@types/bcrypt": "^5.0.2",
+    "vitest": "^3.2.4"
+  }
+}

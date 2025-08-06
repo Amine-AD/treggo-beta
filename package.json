@@ -1,0 +1,38 @@
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "npm run build && node backend/dist/index.js",
+    "clean": "rimraf frontend/dist backend/dist",
+    "lint": "npx biome lint .",
+    "format": "npx biome format .",
+    "lint:backend": "npx biome lint ./backend",
+    "format:backend": "npx biome format ./backend",
+    "lint:frontend": "npx biome lint ./frontend",
+    "format:frontend": "npx biome format ./frontend"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2",
+    "concurrently": "^7.6.0",
+    "ultracite": "^5.0.47"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-expand": "^12.0.2"
+  }
+}
