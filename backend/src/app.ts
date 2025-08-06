@@ -7,6 +7,8 @@ import { routes } from './routes'
 
 const app = createApp()
 
+console.info('test')
+
 app.use(logger())
 
 // app.use(
